@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+.general{
+    color: hsl(281,25.7%,48%);
+}
+/* was #865B9A */
+
+
+#introduction{
+    font-weight: bold;
+}
+
+
+body{
+    font-family: Poppins, 'Arial', sans-serif;
+    background-color:hsl(280,13.4%,86.9%);
+    color:hsl(223.3,9.8%,36.1%);
+}
+/* was background-color:#DFD9E2;
+    color:#535865 ;*/
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+ul{
+    list-style-type: square;
+}
+button{
+    color: white;
+    background: hsl(281,25.7%,48%);
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: larger;
+}
+/* was #865B9A */
+
+button:hover{
+    color: white;
+    background: hsl(89.5,25.7%,48%);
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: larger;
+}
+/* was #7b9a5b*/
+
+
+
+
+/*Let op: Je mag niets veranderen in de aangeleverde HTML behalve het toevoegen van class of id-attributen
+Koppel een extern stylesheet aan jouw HTML-bestand
+Gebruik het Google Font 'Poppins' in de font-weights 300 en 500, en stel een fallback-font in zoals bijvoorbeeld Arial.
+Er is gebruik gemaakt van de volgende kleuren: #535865 (tekstkleur), #865B9A (contrastkleur) en #DFD9E2 (achtergrondkleur)
+Geef de button een andere kleur wanneer de gebruiker er met de muis overheen beweegt
+BONUS: zet de HEX-kleuren om naar HSL-kleuren. Hier heb je handige tools voor op internet.*/
